@@ -17,7 +17,7 @@
       margin: 0 auto;
       background-color: #fff;
       border: 1px solid #ddd;
-      border-left: 6px solid #800020; /* Borgonha vibrante */
+      border-left: 6px solid #800020;
       border-radius: 12px;
       padding: 30px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -45,20 +45,34 @@
       font-weight: bold;
     }
 
-    .btn-suporte {
+    .btn-suporte, .btn-instagram {
       display: inline-block;
       margin-top: 20px;
-      background-color: #800020;
-      color: #fff;
       padding: 12px 24px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.3s;
+      font-family: 'Segoe UI', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-suporte {
+      background-color: #800020;
+      color: #fff;
     }
 
     .btn-suporte:hover {
       background-color: #66001a;
+    }
+
+    .btn-instagram {
+      background-color: #E1306C;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    .btn-instagram:hover {
+      background-color: #c72a60;
     }
 
     .rodape {
@@ -81,12 +95,20 @@
     <p>Se o pagamento foi aprovado, seu pedido já está sendo processado. Caso ainda esteja pendente, você receberá uma confirmação em breve.</p>
   </div>
 
-  <p>📦 <strong>Você receberá atualizações sobre o envio por e-mail e/ou WhatsApp.</strong></p>
+  <p>📦 <strong>Você receberá atualizações sobre o envio por e-mail.</strong></p>
   <p>Nosso prazo de envio é de até 2 dias úteis e o prazo de entrega pode variar conforme a região.</p>
 
-  <a class="btn-suporte" href="https://wa.me/55SEUNUMERO" target="_blank">📲 Falar com o Suporte</a>
+  <p>📧 Entrar em contato através do nosso email: <strong>Utilieasy.sp@gmail.com</strong></p>
 
-  <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+  <!-- Botão de contato por e-mail -->
+  <a class="btn-suporte" href="https://mail.google.com/mail/?view=cm&fs=1&to=Utilieasy.sp@gmail.com&su=Ajuda%20com%20meu%20pedido&body=Ol%C3%A1%2C%20fiz%20uma%20compra%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20meu%20pedido." target="_blank">
+    📬 Fale conosco por e-mail
+  </a>
+
+  <!-- Botão para Instagram -->
+  <a class="btn-instagram" href="https://www.instagram.com/utilieasy.sp" target="_blank">
+    📷 Siga no Instagram
+  </a>
 
   <div class="rodape">
     Estamos à disposição para qualquer dúvida ou suporte. <br>
